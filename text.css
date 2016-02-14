@@ -1,0 +1,86 @@
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	/*color: #282d33;*/
+	color: #2b333f;
+}
+
+p{
+	color: #2b333f;
+}
+
+h1{
+	font-size: 38px;
+	font-family: 'Open Sans', sans-serif;
+	color: #2b333f;
+	font-weight: 400;
+}
+
+.ingress{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(43, 51, 63);
+	line-height: 160%;
+}
+
+.intro{
+	font-size: 18px;
+	line-height: 140%;
+}
+
+.selling-point{
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+}
+
+.selling-point > h3{
+	color: #282d33;
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 120%;
+}
+
+.selling-point > p {
+	font-family: 'Open Sans', sans-serif;
+	color: #6A737A;
+	font-size: 16px;
+}
+
+.selling-point > .info{
+	/*font-family: 'Open Sans', sans-serif;*/
+	color: #8d8d8d;
+	font-size: 14px;
+}
+
+.join > h2{
+	font-size: 30px;
+	color: #2b333f;
+}
+
+.join > p{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	color: #6A737A;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+
+
+.footer{
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+}
+
+
+/*
+/*Black*/
+color: #2b333f;
+
+/*Heading mini-row*/
+color: #282d33;
+/*Paragraph mini-row*/
+color: #6A737A;
+/*Info text mini-row*/
+color: #8d8d8d;
+/*Button color*/
+color: rgba(242,126,89,1);
+*/
