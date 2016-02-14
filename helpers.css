@@ -4,9 +4,7 @@
 
 .top-arrow{
     width: 600px;
-    /*max-width: 80vw;*/
-    /*height: 20px;*/
-    /*background-color: lightyellow;*/
+    margin-top: -2px;
 }
 .order-first{
     order: -1;
@@ -18,31 +16,27 @@
         order: 1;
     }
 
-	.top-arrow{
-		margin-top: -2px;
-	}
-
-	.content >  .mini-row > .selling-point{
-		padding: 0 10px;
-	}
+    .content >  .mini-row > .selling-point{
+        padding: 0 10px;
+    }
 
 }
 
 .join, .ingress{
-	margin: 0 auto;
-	max-width: 750px;
+    margin: 0 auto;
+    max-width: 750px;
 }
 
 #page > .row:first-child{
-	padding-top: 0;
+    padding-top: 0;
 }
 
 .selling-point{
-	/*width: 80% !important;*/
-	padding: 0 60px;
+    /*width: 80% !important;*/
+    padding: 0 60px;
 }
 
 .videoWrapper{
-	/*background-color: lightcoral;*/
-	align-self: center;
+    /*background-color: lightcoral;*/
+    align-self: center;
 }

@@ -26,10 +26,6 @@ html{
     padding: 50px;
 }
 
-.contact{
-    padding: 0;
-}
-
 .content{
     /*padding: 10px 10px;*/
     width: 1000px;
@@ -37,59 +33,6 @@ html{
     /*border: 5px solid yellow;*/
     display: flex;
     flex-wrap: wrap;
-}
-
-.mini-row{
-    margin: 10px 0px;;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    /*border: 5px solid lightcoral;*/
-}
-
-.row > .content > .join{
-    padding-top: 40px;
-    padding-bottom: 60px;
-}
-
-button, .btn {
-    font-family: 'Poppins', sans-serif;
-	color: #2b333f;
-    background-color: rgb(255, 155, 117) !important;
-    font-size: 16px;
-	padding: 12px 35px !important;
-	border-radius: 4px;
-    border: none;
-}
-
-.content > .join > .btn:hover{
-    background: red;
-    /*background-color: rgb(242,126,89);*/
-}
-
-.contact{
-    height: 500px;
-    background: url(./bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.imgWrapper{
-    flex-basis: 400px;
-    background: white;
-    align-self: center;
-    overflow: hidden;
-}
-
-.imgWrapper > img{
-    /*width: 100%;*/
-    /*display: block;*/
-    max-width: 450px;
-    height: auto;
-    width: 100%;
-    border-radius: 8px;
 }
 
 .box{
@@ -108,13 +51,102 @@ button, .btn {
     text-align: center;
 }
 
-/*.box1{background : #FF7BAC;}*/
-.box2{background : #BDCCD4;}
-.box3{background : #FFFF00;}
-.box4{background : #00FF00;}
-.box5{background : #00FFFF;}
-.box6{background : #FF00FF;}
-.box7{background : #ED1E79;}
-.box8{background : #F15A24;}
-.box9{background : #FBB03B;}
-.box10{background : #F2CDC9;}
+
+.mini-row{
+    margin: 10px 0px;;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 5px solid lightcoral;*/
+}
+
+button, .btn {
+    font-family: 'Poppins', sans-serif;
+	color: #2b333f;
+    background-color: rgb(255, 155, 117);
+    font-size: 16px;
+	padding: 12px 35px;
+	border-radius: 4px;
+    border: none;
+}
+
+
+button:hover, .btn:hover{
+    background-color: rgb(242,126,89);
+}
+
+button:focus, .btn:focus{
+    outline-color: rgb(242,126,89);
+}
+
+.contact{
+    /*height: 500px;*/
+    background: url(./bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+}
+
+.imgWrapper{
+    flex-basis: 400px;
+    background: white;
+    align-self: center;
+    overflow: hidden;
+}
+
+.form-wrapper{
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(255, 255, 255, 0.7);*/
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-form{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    padding: 30px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form > input{
+    padding: 10px 15px;;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact-form > input:focus{
+    outline-color: rgb(242,126,89);
+}
+
+.contact-form > button{
+    margin: 10px;
+}
+
+.contact-form > p{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.imgWrapper > img{
+    max-width: 450px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.row > .content > .join{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
